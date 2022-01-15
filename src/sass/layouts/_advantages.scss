@@ -1,0 +1,118 @@
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+.backdrop.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+.advantages {
+  padding-bottom: 48px;
+  padding-top: 38px;
+  align-items: baseline;
+
+  background-color: $primary-shade-color;
+  @media screen and (min-width: $tablet) {
+    padding-bottom: 140px;
+  }
+  @media screen and (min-width: $desktop) {
+    padding-bottom: 139px;
+  }
+}
+
+.advantages-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media screen and (min-width: $tablet) {
+    flex-direction: row;
+    height: 226px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  @media screen and (min-width: $desktop) {
+    height: 222px;
+  }
+}
+.advantages-list__item {
+  list-style: none;
+  @media screen and (min-width: $tablet) {
+  }
+  @media screen and (min-width: $desktop) {
+  }
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.advantages-list__item-icon {
+  width: 50px;
+  height: 50px;
+  list-style: none;
+  margin-bottom: 16px;
+  @media (min-width: $tablet) {
+    margin-top: 66px;
+    margin-bottom: 36px;
+  }
+  @media (min-width: $desktop) {
+    margin-top: 38px;
+    margin-bottom: 40px;
+  }
+}
+.advantages__icon1::before {
+  content: url();
+}
+.advantages__icon2::before {
+  content: url();
+}
+.advantages__icon3::before {
+  content: url();
+}
+.advantages-list__item-title {
+  font-family: 'Titan One';
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  font-size: 36px;
+  line-height: 1.13px;
+  color: $main-color;
+  padding-top: 16px;
+  margin-bottom: 54px;
+
+  @media screen and (min-width: $tablet) {
+    line-height: 1.14;
+    font-size: 55px;
+    margin-bottom: 13px;
+    padding-top: 0px;
+  }
+  @media screen and (min-width: $desktop) {
+    font-size: 58px;
+    line-height: 1.37;
+    margin-bottom: 15px;
+    padding-top: 0px;
+  }
+}
+.advantages-list__item-text {
+  font-family: 'DM Sans' sans-serif;
+  letter-spacing: 0.02em;
+  font-size: 12px;
+  line-height: 1.7;
+  font-weight: 700;
+  color: $secondary-color;
+  list-style: none;
+  padding-bottom: 38px;
+  @media screen and (min-width: $tablet) {
+    padding-bottom: 0px;
+    font-size: 14px;
+    line-height: 1.74;
+  }
+  @media screen and (min-width: $desktop) {
+    padding-bottom: 0px;
+    font-size: 16px;
+    line-height: 1.76;
+  }
+}
