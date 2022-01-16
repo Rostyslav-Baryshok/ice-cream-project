@@ -4,8 +4,10 @@
 
 @import './base/common';
 
+@import './layouts/about';
+@import './layouts/advantages';
+
 @import './components/buttons';
 @import './components/modal';
-
-@import './components/contacts';
 @import './components/products';
+@import './components/contacts';
