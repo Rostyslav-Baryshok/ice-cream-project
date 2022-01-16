@@ -1,24 +1,92 @@
 .section {
   padding: 0 20px;
 }
+.container {
+  margin-bottom: 144px;
+}
 .section-label {
   font-family: Titan One;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   text-align: center;
   text-transform: uppercase;
   color: $main-shade-color;
+  margin-bottom: 15px;
+  margin-top: 121px;
 }
 .section-title {
   font-family: Titan One;
   font-style: normal;
   font-weight: normal;
   font-size: 34px;
-  line-height: 39px;
+  line-height: 1.15;
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: $main-color;
+}
+
+.products-list__title {
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $primary-color;
+  margin-bottom: 66px;
+  justify-content: center;
+}
+.products-list__item {
+  margin-bottom: 130px;
+}
+
+.products-list__text-wrapp {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.products-list__text--wrapp-current::before {
+  content: '';
+  position: absolute;
+  display: flex;
+  border-radius: 50%;
+  border: none;
+  background-color: $primary-color;
+  width: 6px;
+  height: 6px;
+}
+
+.products-list__background {
+  background: $main-shade-two-color;
+  border-radius: 24px;
+  height: 485px;
+}
+.products-list__background--two {
+  background: $background-color;
+  border-radius: 24px;
+  height: 485px;
+}
+.products-list__background--three {
+  background: $background-two-color;
+  border-radius: 24px;
+  height: 485px;
+}
+.products-list__text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: $primary-color;
+}
+.products-btn__icon {
+  border-radius: 50%;
+  border: none;
+  justify-content: center;
 }
