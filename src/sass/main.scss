@@ -1,9 +1,15 @@
 // Главный файл стилей. Все паршалы подключаются сюда.
 
 @import './utils/variables';
-
 @import './base/common';
 
-@import './components/example';
+@import './utils/mixins';
+@import './hero-header';
 
+@import './layouts/about';
+@import './layouts/advantages';
+
+@import './components/buttons';
+@import './components/modal';
+@import './components/products';
 @import './components/contacts';
