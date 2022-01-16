@@ -1,0 +1,179 @@
+.contact {
+  position: relative;
+  background-color: $primary-shade-color;
+  text-align: center;
+
+  &__list {
+    text-align: left;
+    @media screen and (min-width: $tablet) {
+      display: flex;
+      margin: -20px;
+      @media screen and (min-width: $desktop) {
+        margin: -30px;
+      }
+    }
+  }
+
+  &__item {
+    background-color: $primary-color;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+    padding: 43px 21px 43px 20px;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: $tablet) {
+      margin: 20px;
+    }
+    @media screen and (min-width: $desktop) {
+      margin: 30px;
+    }
+  }
+
+  &__category {
+    text-transform: uppercase;
+    color: $primary-color;
+    background-color: $background-color;
+    border-radius: 4px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+
+    line-height: 1.86;
+    letter-spacing: 0.04em;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    @media screen and (min-width: $tablet) {
+      font-size: 16px;
+    }
+    margin-bottom: 25px;
+  }
+
+  &__category--second {
+    background-color: $background-two-color;
+  }
+  &__caption {
+    font-family: DM Sans, sans-serif;
+    color: $secondary-color;
+    font-weight: 500;
+    font-size: 12px;
+    @media screen and (min-width: $tablet) {
+      font-size: 14px;
+    }
+    @media screen and (min-width: $desktop) {
+      font-size: 16px;
+    }
+    line-height: 1.86;
+    letter-spacing: 0.04em;
+
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 12px;
+    @media screen and (min-width: $tablet) {
+      font-size: 14px;
+    }
+    @media screen and (min-width: $desktop) {
+      font-size: 16px;
+    }
+    line-height: 1.5;
+
+    color: $secondary-shade-color;
+    margin-bottom: 25px;
+  }
+
+  &__city {
+    border-bottom: 1px solid #ececec;
+  }
+
+  &__working-hours {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ececec;
+  }
+  &__working-days {
+    font-family: DM Sans, sans-serif;
+    color: $secondary-color;
+    font-weight: 500;
+    font-size: 12px;
+    @media screen and (min-width: $tablet) {
+      font-size: 14px;
+    }
+    @media screen and (min-width: $desktop) {
+      font-size: 16px;
+    }
+    line-height: 1.86;
+    letter-spacing: 0.04em;
+  }
+
+  &__week-end-days {
+    font-family: DM Sans, sans-serif;
+    color: $secondary-color;
+    font-weight: 500;
+    font-size: 12px;
+    @media screen and (min-width: $tablet) {
+      font-size: 14px;
+    }
+    @media screen and (min-width: $desktop) {
+      font-size: 16px;
+    }
+    line-height: 1.86;
+    letter-spacing: 0.04em;
+    margin-top: 10px;
+  }
+
+  &__time {
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 12px;
+    @media screen and (min-width: $tablet) {
+      font-size: 14px;
+    }
+    @media screen and (min-width: $desktop) {
+      font-size: 16px;
+    }
+    line-height: 1.86;
+    color: $main-shade-color;
+  }
+
+  &__details {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__phone,
+  &__mail {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    @media screen and (min-width: $tablet) {
+      font-size: 14px;
+    }
+    @media screen and (min-width: $desktop) {
+      font-size: 16px;
+    }
+    line-height: 1.5;
+
+    color: $secondary-shade-color;
+  }
+
+  &__button {
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    display: block;
+  }
+}
