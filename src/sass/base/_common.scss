@@ -24,6 +24,22 @@ a {
   text-decoration: none;
 }
 
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
 img {
   display: block;
   max-width: 100%;
@@ -32,6 +48,7 @@ img {
 address {
   font-style: normal;
 }
+
 .list {
   list-style: none;
 }

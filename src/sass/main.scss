@@ -1,8 +1,12 @@
 // Главный файл стилей. Все паршалы подключаются сюда.
 
 @import './utils/variables';
-
 @import './base/common';
+
+@import './utils/mixins';
+@import './base/container';
+@import './hero-header';
+
 
 @import './layouts/about';
 @import './layouts/advantages';
