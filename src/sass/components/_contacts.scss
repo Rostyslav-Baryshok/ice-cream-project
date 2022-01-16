@@ -224,7 +224,20 @@
     content: '';
     width: 10px;
     height: 10px;
-    background-image: url();
+    background-image: url(./images/contacts_btn_icon.png);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    background-position: 50% 50%;
+  }
+
+  &__button--franchise ::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-image: url(./images/contacts_btn_icon_red.png);
     display: inline-flex;
     align-items: center;
     justify-content: center;
