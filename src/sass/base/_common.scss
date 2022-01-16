@@ -49,6 +49,22 @@ address {
   font-style: normal;
 }
 
+.list {
+  list-style: none;
+}
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  @media screen and (min-width: $mobile) {
+    width: 480px;
+  }
+  @media screen and (min-width: $tablet) {
+    width: 768px;
+  }
+  @media screen and (min-width: $desktop) {
+    width: 1200px;
+  }
+}
 
 .visually-hidden {
   position: absolute;

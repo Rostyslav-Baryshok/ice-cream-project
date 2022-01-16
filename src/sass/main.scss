@@ -2,6 +2,16 @@
 
 @import './utils/variables';
 @import './base/common';
+
 @import './utils/mixins';
 @import './base/container';
 @import './hero-header';
+
+
+@import './layouts/about';
+@import './layouts/advantages';
+
+@import './components/buttons';
+@import './components/modal';
+@import './components/products';
+@import './components/contacts';
