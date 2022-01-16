@@ -8,7 +8,7 @@
   padding-top: 125px;
   padding-bottom: 39px;
 
-  background-image: url('');
+  background-image: url('/src/images/mobile/about/bckg.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 80%;
@@ -90,7 +90,7 @@
   font-size: 12px;
   line-height: 162%;
 
-  color: $main-dark-color;
+  color: $secondary-color;
 
   @media screen and (min-width: $tablet) {
     margin-bottom: 31px;
@@ -201,7 +201,7 @@
   min-height: 500px;
   padding: 40px 40px;
   background-color: $main-shade-two-color;
-  background-image: url('');
+  background-image: url('/src/images/mobile/hero/icecream-@1x.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -268,7 +268,7 @@
   position: absolute;
   top: 170px;
   left: 0;
-  background-image: url('');
+  background-image: url('/src/images/desktop/about/milk-left.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 160px;
@@ -279,7 +279,7 @@
   position: absolute;
   top: 200px;
   right: 0;
-  background-image: url('');
+  background-image: url('/src/images/desktop/about/milk-right.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 268px;

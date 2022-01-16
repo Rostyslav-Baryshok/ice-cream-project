@@ -4,7 +4,12 @@
     <h2 class="about__title">how it’s made?</h2>
     <div class="about__tablet">
       <div class="about__thumb">
-        <img class="about__main-img" srcset="" src="" alt="" />
+        <img
+          class="about__main-img"
+          srcset="./images/mobile/about/cow-2x.png 2x, ./images/mobile/about/cow-1x.png 1x"
+          src="./images/mobile/about/cow-1x.png"
+          alt="cow"
+        />
       </div>
       <div class="about__description">
         <p class="about__description-text-main">
@@ -24,7 +29,12 @@
 
     <div class="about__desktop">
       <div class="about__thumb">
-        <img class="about__main-img" srcset="" src="" alt="" />
+        <img
+          class="about__main-img"
+          srcset="./images/mobile/about/cow-2x.png 2x, ./images/mobile/about/cow-1x.png 1x"
+          src="./images/mobile/about/cow-1x.png"
+          alt="cow"
+        />
       </div>
       <div class="about__description">
         <p class="about__description-text-main">
@@ -44,8 +54,8 @@
   <div class="backdrop is-hidden" data-modal-about>
     <div class="modal modal-about">
       <button class="modal__button" type="button" data-modal-close-about>
-        <svg width="18" height="18" class="modal__icon">
-          <use href=""></use>
+        <svg width="18" height="18">
+          <use href="/src/images/svg/sprite.svg#icon-modal-close"></use>
         </svg>
       </button>
       <h2 class="modal__main-title">Made with love</h2>
