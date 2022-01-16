@@ -233,7 +233,7 @@
     background-position: 50% 50%;
   }
 
-  &__button--franchise ::after {
+  &__button--franchise::after {
     content: '';
     width: 10px;
     height: 10px;
