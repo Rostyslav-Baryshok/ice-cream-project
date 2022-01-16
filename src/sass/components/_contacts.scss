@@ -2,6 +2,12 @@
   position: relative;
   background-color: $primary-shade-color;
   text-align: center;
+  @media screen and (min-width: $desktop) {
+    background-image: url(../images/contacts/contacts_drops2.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
   &__list {
     text-align: left;
