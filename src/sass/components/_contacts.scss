@@ -5,8 +5,7 @@
 
   text-align: center;
   @media screen and (min-width: $desktop) {
-    background-image: linear-gradient(to bottom, #ffffff 15%, #fff5f6 15%),
-      url(./images/contacts/contacts_drops2.png);
+    background-image: linear-gradient(to bottom, #ffffff 15%, #fff5f6 15%);
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -234,7 +233,7 @@
     content: '';
     width: 10px;
     height: 10px;
-    background-image: url(./images/contacts_btn_icon.png);
+    background-image: url();
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -246,7 +245,7 @@
     content: '';
     width: 10px;
     height: 10px;
-    background-image: url(./images/contacts_btn_icon_red.png);
+    background-image: url();
     display: inline-flex;
     align-items: center;
     justify-content: center;
