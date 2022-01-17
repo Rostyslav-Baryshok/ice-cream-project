@@ -2,13 +2,13 @@
   padding-top: 121px;
   padding-bottom: 98px;
 }
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .section {
     padding-top: 122px;
     padding-bottom: 112px;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .section {
     padding-top: 127px;
     padding-bottom: 119px;
@@ -31,7 +31,7 @@
     padding-right: 34px;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .container {
     max-width: 1080px;
     padding-left: 15px;
@@ -40,40 +40,40 @@
 }
 .section-label {
   margin-bottom: 15px;
-  font-family: Titan One;
+  font-family: 'Titan One', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 30px;
   line-height: 1.16;
   text-align: center;
   text-transform: uppercase;
   color: $main-shade-color;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .label-title {
     font-size: 26px;
     line-height: 1.15;
   }
 }
 .section-title {
-  font-family: Titan One;
+  font-family: 'Titan One', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 34px;
+  font-size: 58px;
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: $main-color;
 }
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .section .section-title {
     margin-bottom: 39px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .section-title {
     font-size: 48px;
     line-height: 1.14;
@@ -183,7 +183,7 @@
   margin: 30px auto;
   width: 26px;
   height: 6px;
-  // background-image: url(/images/svg/sprite1.svg/icon-eliipse-3.svg);
+  background-image: url(/images/svg/group-decore.svg);
 }
 .products-btn {
   cursor: pointer;
