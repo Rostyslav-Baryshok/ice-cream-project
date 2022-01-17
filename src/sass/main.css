@@ -637,20 +637,23 @@ address {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: 66px;
+  margin-top: 161px;
+  position: absolute;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
 .products-list__item {
-  margin-bottom: 130px;
+  position: relative;
+  margin-bottom: 122px;
+  background: #ffb8ca;
+  border-radius: 24px;
+  height: 485px;
 }
 
 .products-list__text-wrapp {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  position: absolute;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -668,21 +671,24 @@ address {
   background-color: #ffffff;
   width: 6px;
   height: 6px;
+  margin-bottom: 30px;
 }
 
-.products-list__background {
-  background: #ffb8ca;
-  border-radius: 24px;
-  height: 485px;
+.products-list__img {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 249px;
 }
 
-.products-list__background--two {
+.products-list__item--coffee {
   background: #f0d1a5;
   border-radius: 24px;
   height: 485px;
 }
 
-.products-list__background--three {
+.products-list__item--milkshakes {
   background: #c2e297;
   border-radius: 24px;
   height: 485px;
@@ -696,14 +702,18 @@ address {
   text-align: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+  position: absolute;
 }
 
-.products-btn__icon {
-  border-radius: 50%;
+.products-btn {
+  width: 40px;
+  height: 40px;
   border: none;
+  border-radius: 50%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: #fafafa;
 }
 
 .contact {

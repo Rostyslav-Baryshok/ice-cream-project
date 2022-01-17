@@ -38,15 +38,20 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: $primary-color;
-  margin-bottom: 66px;
+  margin-top: 161px;
+  position: absolute;
   justify-content: center;
 }
 .products-list__item {
-  margin-bottom: 130px;
+  position: relative;
+  margin-bottom: 122px;
+  background: $main-shade-two-color;
+  border-radius: 24px;
+  height: 485px;
 }
 
 .products-list__text-wrapp {
-  display: flex;
+  position: absolute;
   justify-content: center;
   margin-bottom: 30px;
 }
@@ -59,19 +64,21 @@
   background-color: $primary-color;
   width: 6px;
   height: 6px;
+  margin-bottom: 30px;
 }
 
-.products-list__background {
-  background: $main-shade-two-color;
-  border-radius: 24px;
-  height: 485px;
+.products-list__img {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 249px;
 }
-.products-list__background--two {
+.products-list__item--coffee {
   background: $background-color;
   border-radius: 24px;
   height: 485px;
 }
-.products-list__background--three {
+.products-list__item--milkshakes {
   background: $background-two-color;
   border-radius: 24px;
   height: 485px;
@@ -84,9 +91,13 @@
   text-align: center;
   letter-spacing: 0.04em;
   color: $primary-color;
+  position: absolute;
 }
-.products-btn__icon {
-  border-radius: 50%;
+.products-btn {
+  width: 40px;
+  height: 40px;
   border: none;
+  border-radius: 50%;
   justify-content: center;
+  background-color: $background-three-color;
 }
