@@ -1300,14 +1300,16 @@ address {
 }
 
 .contact {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #ffffff), color-stop(15%, #fff5f6));
+  background-image: linear-gradient(to bottom, #ffffff 15%, #fff5f6 15%);
   position: relative;
-  background-color: #fff5f6;
   text-align: center;
 }
 
 @media screen and (min-width: 1200px) {
   .contact {
-    background-image: url(../images/contacts/contacts_drops2.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #ffffff), color-stop(15%, #fff5f6)), url(./images/contacts/contacts_drops2.png);
+    background-image: linear-gradient(to bottom, #ffffff 15%, #fff5f6 15%), url(./images/contacts/contacts_drops2.png);
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -1532,6 +1534,17 @@ address {
 }
 
 .contact__button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  left: 21px;
+  top: 60px;
   text-decoration: none;
   font-family: inherit;
   font-weight: bold;
@@ -1543,14 +1556,6 @@ address {
   text-align: center;
   min-width: 161px;
   padding: 10px 17px 10px 17px;
-}
-
-@media screen and (max-width: 767px) {
-  .contact__button {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
 }
 
 @media screen and (min-width: 768px) {

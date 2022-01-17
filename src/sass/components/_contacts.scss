@@ -1,10 +1,12 @@
 .contact {
+  background-image: linear-gradient(to bottom, #ffffff 15%, #fff5f6 15%);
+
   position: relative;
-  background-color: $primary-shade-color;
+
   text-align: center;
   @media screen and (min-width: $desktop) {
-    background-image: url(../images/contacts/contacts_drops2.png);
-
+    background-image: linear-gradient(to bottom, #ffffff 15%, #fff5f6 15%),
+      url(./images/contacts/contacts_drops2.png);
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -171,6 +173,12 @@
   }
 
   &__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    left: 21px;
+    top: 60px;
+
     text-decoration: none;
     font-family: inherit;
     font-weight: bold;
@@ -183,11 +191,6 @@
 
     min-width: 161px;
     padding: 10px 17px 10px 17px;
-    @media screen and (max-width: 767px) {
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-    }
     @media screen and (min-width: $tablet) {
       margin-top: 81px;
     }
@@ -195,6 +198,7 @@
       margin-top: 86px;
     }
   }
+
   &__button--location {
     background-color: $main-color;
     color: $primary-color;
@@ -238,7 +242,6 @@
     margin-left: 15px;
     background-position: 50% 50%;
   }
-
   &__button--franchise ::after {
     content: '';
     width: 10px;
