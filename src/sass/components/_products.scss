@@ -40,6 +40,8 @@
   color: $primary-color;
   margin-top: 161px;
   position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
   justify-content: center;
 }
 .products-list__item {
@@ -52,6 +54,9 @@
 
 .products-list__text-wrapp {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   justify-content: center;
   margin-bottom: 30px;
 }
@@ -92,6 +97,12 @@
   letter-spacing: 0.04em;
   color: $primary-color;
   position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  width: 200px;
+  margin-top: 30px;
 }
 .products-btn {
   width: 40px;
@@ -100,4 +111,9 @@
   border-radius: 50%;
   justify-content: center;
   background-color: $background-three-color;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 30px;
 }
