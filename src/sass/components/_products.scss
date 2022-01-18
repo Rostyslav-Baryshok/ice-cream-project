@@ -44,17 +44,21 @@
   font-family: 'Titan One', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 18px;
   line-height: 1.16;
   text-align: center;
   text-transform: uppercase;
   color: $main-shade-color;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .label-title {
+@media screen and (min-width: 768px) {
+  .section-label {
     font-size: 26px;
-    line-height: 1.15;
+  }
+  @media screen and (min-width: 1200px) {
+    .section-label {
+      font-size: 30px;
+    }
   }
 }
 .section-title {
@@ -62,7 +66,7 @@
   font-family: 'Titan One', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 58px;
+  font-size: 34px;
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.04em;
@@ -70,12 +74,11 @@
   color: $main-color;
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .section .section-title {
+  .section-title {
     margin-bottom: 39px;
   }
 }
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .section-title {
     font-size: 48px;
     line-height: 1.14;
@@ -83,9 +86,11 @@
 }
 @media screen and (min-width: 1200px) {
   .section-title {
-    margin-bottom: 49px;
+    // margin-bottom: 58px;
+    font-size: 58px;
   }
 }
+
 .products-wrap {
   padding-top: 30px;
 }
