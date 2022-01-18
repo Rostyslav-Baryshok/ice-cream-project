@@ -4,11 +4,11 @@
 @import './base/common';
 
 @import './utils/mixins';
-@import './hero-header';
 
 @import './layouts/about';
 @import './layouts/advantages';
 
+@import './components/hero-header';
 @import './components/buttons';
 @import './components/modal';
 @import './components/products';
