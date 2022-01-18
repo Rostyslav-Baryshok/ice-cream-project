@@ -206,8 +206,7 @@
       color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus {
-      background-color: $primary-color;
-      color: $main-color;
+      background-color: $accent-color-two-btn;
     }
     @media screen and (max-width: 768px) {
       margin-top: 54px;
@@ -233,7 +232,7 @@
     content: '';
     width: 10px;
     height: 10px;
-    background-image: url();
+    background-image: url(/images/btn-icon-white.png);
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -241,11 +240,11 @@
     margin-left: 15px;
     background-position: 50% 50%;
   }
-  &__button--franchise ::after {
+  &__button--franchise::after {
     content: '';
     width: 10px;
     height: 10px;
-    background-image: url();
+    background-image: url(/images/btn-icon.png);
     display: inline-flex;
     align-items: center;
     justify-content: center;
