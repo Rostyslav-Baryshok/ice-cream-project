@@ -5,8 +5,7 @@
 .about {
   z-index: 1;
   position: relative;
-  padding-top: 125px;
-  padding-bottom: 39px;
+  padding: 125px 0 39px;
 
   background-image: url('/images/desktop/about/bckg-milk.png');
   background-repeat: no-repeat;
@@ -17,12 +16,11 @@
 
   @media screen and (min-width: $tablet) {
     background-image: none;
-    padding-top: 130px;
-    padding-bottom: 66px;
+    padding: 130px 0 66px;
   }
 
   @media screen and (min-width: $desktop) {
-    padding-bottom: 39px;
+    margin-bottom: 125px 0 39px;
   }
 }
 
@@ -129,14 +127,11 @@
 }
 
 .about__button {
-  @extend %button;
   padding-left: 37px;
   padding-right: 37px;
   margin-right: auto;
-
   color: $main-color;
   background-color: $primary-color;
-
   min-height: 44px;
   font-weight: bold;
   font-size: 14px;
@@ -149,7 +144,7 @@
   }
 
   &::after {
-    content: '';
+    content: '/src/images/hero-header/Vector.svg';
     margin-left: 13px;
     height: 10px;
     width: 10px;
@@ -200,8 +195,8 @@
   width: 450px;
   min-height: 500px;
   padding: 40px 40px;
-  background-color: $main-shade-two-color;
-  background-image: url('/images/mobile/hero/icecream-@1x.png');
+  background-color: $background-two-color;
+  background-image: url('/src/images/mobile/about/modal-icecream.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
