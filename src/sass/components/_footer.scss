@@ -14,11 +14,14 @@
   &__text--first {
     font-family: Titan One;
     font-size: 18px;
+    width: 232px;
     @media screen and (min-width: $tablet) {
       font-size: 26px;
+      width: 340px;
     }
     @media screen and (min-width: $desktop) {
       font-size: 30px;
+      width: 472px;
     }
 
     line-height: 1.17;
@@ -31,11 +34,14 @@
   &__text--second {
     font-family: Titan One;
     font-size: 34px;
+    width: 234px;
     @media screen and (min-width: $tablet) {
       font-size: 48px;
+      width: 340px;
     }
     @media screen and (min-width: $desktop) {
       font-size: 58px;
+      width: 474px;
     }
     line-height: 1.17;
     letter-spacing: 0.04em;
