@@ -197,8 +197,8 @@
   pointer-events: none;
 }
 .modal-about {
-  width: 450px;
-  min-height: 500px;
+  max-width: 450px;
+  height: 500px;
   padding: 40px 40px;
   background-color: $background-two-color;
   background-image: url('/images/mobile/about/modal-icecream.png');
@@ -219,16 +219,19 @@
 
 .modal__main-title {
   margin-bottom: 35px;
-
-  font-family: 'Titan One';
+  font-family: Titan One;
   font-weight: normal;
   font-size: 28px;
   line-height: 0.9;
   text-align: center;
   letter-spacing: 0.04em;
   text-align: center;
-
   color: $main-color;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
 }
 
 .modal__subtitle {
@@ -238,8 +241,12 @@
   font-size: 14px;
   line-height: 186%;
   letter-spacing: 0.04em;
-
   color: $secondary-color;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 9px;
+    margin-bottom: 10px;
+  }
 }
 
 .modal__text {
@@ -250,6 +257,11 @@
   font-size: 14px;
   line-height: 166%;
   color: $secondary-shade-color;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 8px;
+    margin-bottom: 10px;
+  }
 }
 
 //--модальное окно--//
