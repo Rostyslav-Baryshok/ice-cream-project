@@ -4,16 +4,12 @@
   pointer-events: none;
 }
 .advantages {
-  padding-bottom: 48px;
-  padding-top: 38px;
+  padding-bottom: 97px;
   align-items: baseline;
 
   background-color: $primary-shade-color;
   @media screen and (min-width: $tablet) {
     padding-bottom: 140px;
-  }
-  @media screen and (min-width: $desktop) {
-    padding-bottom: 139px;
   }
 }
 
