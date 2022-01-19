@@ -76,6 +76,12 @@
     position: relative;
     padding-top: 22px;
 
+    @media screen and (min-width: $tablet) {
+      padding-top: 29px;
+    }
+    @media screen and (min-width: $desktop) {
+      padding-top: 9px;
+    }
     border-top: 1px solid $primary-shade-two-color;
     font-family: DM Sans;
     font-style: normal;

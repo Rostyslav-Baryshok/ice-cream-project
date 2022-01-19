@@ -179,6 +179,13 @@
 .header__wrap-title {
   position: relative;
   z-index: 1;
+  width: 218px;
+  @media screen and (min-width: $tablet) {
+    width: 162px;
+  }
+  @media screen and (min-width: $desktop) {
+    width: 277px;
+  }
 }
 
 .header__title {
