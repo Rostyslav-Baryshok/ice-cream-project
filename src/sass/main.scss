@@ -2,20 +2,15 @@
 
 @import './utils/variables';
 @import './base/common';
-
 @import './utils/mixins';
 
-@import './layouts/about';
-@import './layouts/advantages';
-
-@import './layouts/customer-reviews';
-
-@import './layouts/gallery';
-
-
 @import './components/hero-header';
+@import './components/products';
 @import './components/buttons';
 @import './components/modal';
-@import './components/products';
+@import './components/about';
+@import './components/advantages';
+@import './components/gallery';
+@import './components/customer-reviews';
 @import './components/contacts';
 @import './components/footer';

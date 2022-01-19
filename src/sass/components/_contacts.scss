@@ -27,6 +27,7 @@
     border-radius: 24px;
     padding: 43px 21px 43px 20px;
     margin-bottom: 20px;
+    transition-duration: 250ms;
 
     @media screen and (min-width: $tablet) {
       margin: 20px;
@@ -255,6 +256,8 @@
 }
 .contact__item {
   &:hover {
-    box-shadow: (0px 1px 1px rgba(240, 36, 36, 0.212));
+    transform: scale(1.08);
+    transition: $duration;
+    box-shadow: (0px 0px 0px 2px rgba(255, 168, 168, 0.281));
   }
 }
