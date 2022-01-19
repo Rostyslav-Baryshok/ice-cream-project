@@ -224,17 +224,41 @@
   background-color: $primary-color;
   outline: none;
 }
-
-summary::-webkit-details-marker {
-  font-size: 0px;
+.products-list__details .podrobno {
+  position: relative;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  fill: $main-color;
+  background-color: $primary-color;
+  outline: none;
+  margin: 0 auto;
+  list-style: none;
 }
-details[open] summary {
-  margin-bottom: 0.5em;
+.podrobno__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 10px;
+  color: $primary-color;
 }
-details > summary {
-  color: white;
-  margin-top: 20px;
+.podrobno::before {
+  content: '→';
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  color: $accent-color-two-btn;
 }
-// details > summary:first-of-type {
-//   list-style-type: none;
-// }
+.products-list__details[open] .podrobno::before {
+  content: '↑';
+  position: absolute;
+  top: 28%;
+  left: 38%;
+  color: $accent-color-two-btn;
+}
+.podrobno__text[open] {
+  animation-duration: $duration;
+}
