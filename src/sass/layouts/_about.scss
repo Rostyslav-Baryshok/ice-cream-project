@@ -199,11 +199,11 @@
 .modal-about {
   width: 300px;
   padding: 40px 40px;
-  background-color: $background-two-color;
+  background-color: $primary-shade-color;
   background-image: url('/images/mobile/about/modal-icecream.png');
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  background-position: 50% 98%;
+  background-size: 60px;
 
   @media screen and (min-width: $tablet) {
     width: 450px;
@@ -254,7 +254,7 @@
 }
 
 .modal__text {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 
   font-family: 'DM Sans';
   font-weight: 500;
@@ -262,12 +262,14 @@
   line-height: 166%;
   color: $secondary-shade-color;
 
+  &:last-child {
+    margin-bottom: 35px;
+  }
   @media screen and (max-width: $tablet) {
     font-size: 10px;
     margin-bottom: 7px;
   }
 }
-
 //--модальное окно--//
 
 //--брызги--//
