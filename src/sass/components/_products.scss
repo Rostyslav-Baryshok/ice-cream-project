@@ -224,8 +224,8 @@
   background-color: $primary-color;
   outline: none;
 }
-
 .products-list__details .podrobno {
+  position: relative;
   cursor: pointer;
   width: 40px;
   height: 40px;
@@ -246,11 +246,17 @@
   color: $primary-color;
 }
 .podrobno::before {
-  content: '\2794';
+  content: '→';
+  position: absolute;
+  top: 30%;
+  left: 30%;
   color: $accent-color-two-btn;
 }
 .products-list__details[open] .podrobno::before {
-  content: '\1F817';
+  content: '↑';
+  position: absolute;
+  top: 28%;
+  left: 38%;
   color: $accent-color-two-btn;
 }
 .podrobno__text[open] {
