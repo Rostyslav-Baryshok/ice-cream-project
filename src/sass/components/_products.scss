@@ -224,3 +224,17 @@
   background-color: $primary-color;
   outline: none;
 }
+
+summary::-webkit-details-marker {
+  font-size: 0px;
+}
+details[open] summary {
+  margin-bottom: 0.5em;
+}
+details > summary {
+  color: white;
+  margin-top: 20px;
+}
+// details > summary:first-of-type {
+//   list-style-type: none;
+// }
