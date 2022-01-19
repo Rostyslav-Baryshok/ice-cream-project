@@ -224,3 +224,35 @@
   background-color: $primary-color;
   outline: none;
 }
+
+.products-list__details .podrobno {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  fill: $main-color;
+  background-color: $primary-color;
+  outline: none;
+  margin: 0 auto;
+  list-style: none;
+}
+.podrobno__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 10px;
+  color: $primary-color;
+}
+.podrobno::before {
+  content: '\2794';
+  color: $accent-color-two-btn;
+}
+.products-list__details[open] .podrobno::before {
+  content: '\1F817';
+  color: $accent-color-two-btn;
+}
+.podrobno__text[open] {
+  animation-duration: $duration;
+}
