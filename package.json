@@ -27,5 +27,7 @@
   },
   "dependencies": {
     "@splidejs/splide": "^3.6.11"
+
+    "animate.css": "^4.1.1"
   }
 }
