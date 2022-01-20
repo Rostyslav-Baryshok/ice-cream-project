@@ -35,26 +35,29 @@
     font-family: Titan One;
     font-size: 34px;
     width: 234px;
-    @media screen and (min-width: $tablet) {
-      font-size: 48px;
-      width: 340px;
-    }
-    @media screen and (min-width: $desktop) {
-      font-size: 58px;
-      width: 474px;
-    }
     line-height: 1.17;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: $main-color;
-
     margin-bottom: 43px;
+
+    @media screen and (min-width: $tablet) {
+      font-size: 48px;
+      width: 340px;
+      margin-bottom: 91px;
+    }
+    @media screen and (min-width: $desktop) {
+      font-size: 58px;
+      width: 474px;
+      margin-bottom: 97px;
+    }
   }
   &__social-list {
     display: flex;
   }
   &__social {
     justify-content: end;
+    margin-left: auto;
   }
   &__contact {
     font-family: DM Sans;
@@ -62,11 +65,12 @@
     font-weight: bold;
     font-size: 12px;
     line-height: 1.86;
-
     text-align: right;
-
     color: $secondary-color;
-    margin-bottom: 43px;
+    // margin-bottom: 43px;
+    @media screen and (max-width: 767px) {
+      margin-bottom: 43px;
+    }
   }
   &__phone {
     color: $main-color;
@@ -142,12 +146,12 @@
     }
   }
 
-  &__text {
-    @media screen and (min-width: $tablet) {
-      margin-right: 98px;
-    }
-    @media screen and (min-width: $desktop) {
-      margin-right: 257px;
-    }
-  }
+  // &__text {
+  //   @media screen and (min-width: $tablet) {
+  //     margin-right: 98px;
+  //   }
+  //   @media screen and (min-width: $desktop) {
+  //     margin-right: 257px;
+  //   }
+  // }
 }
