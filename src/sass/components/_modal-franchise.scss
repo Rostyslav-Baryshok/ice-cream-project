@@ -1,30 +1,33 @@
 .modal-franchise {
-  padding: 45px 25px;
-  background-color: $primary-color;
+  width: 700px;
+  height: 520px;
+  padding: 40px 25px;
+  background-color: $primary-shade-color;
 
   @media screen and (max-width: 767px) {
-    width: 280px;
-  }
-  @media screen and (min-width: $tablet) and (max-width: 1279px) {
-    min-width: 400px;
-  }
-  @media screen and (min-width: $desktop) {
     width: 500px;
+    height: 520px;
+  }
+  @media screen and (min-width: 320px) and (max-width: 540px) {
+    width: 290px;
+    height: 415px;
+    padding: 35px 20px;
   }
 }
 
 .modal-franchise__title {
-  margin-bottom: 15px;
+  font-family: 'Titan One';
+  font-size: 25px;
   text-align: center;
   font-weight: 700;
+  margin-bottom: 40px;
   color: $main-color;
 
   @media screen and (max-width: 767px) {
-    font-size: 16px;
+    font-size: 19px;
   }
-
-  @media screen and (min-width: $tablet) {
-    font-size: 20px;
+  @media screen and (min-width: 320px) and (max-width: 540px) {
+    font-size: 14px;
   }
 }
 
@@ -41,17 +44,18 @@
 .modal-franchise__input {
   padding: 10px;
   outline: none;
-  border: 2px solid $secondary-shade-color;
   border-radius: 4px;
+  min-width: 450px;
+  border: 2px solid $secondary-shade-color;
   transition: $timing-function $duration;
   color: $secondary-shade-color;
 
   @media screen and (max-width: 767px) {
-    min-width: 200px;
+    min-width: 350px;
   }
 
-  @media screen and (min-width: $tablet) {
-    min-width: 280px;
+  @media screen and (min-width: 320px) and (max-width: 540px) {
+    min-width: 250px;
   }
 
   &:hover,
@@ -65,15 +69,15 @@
   color: $secondary-shade-color;
 
   @media screen and (max-width: 767px) {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 1.62;
   }
   @media screen and (min-width: $tablet) and (max-width: 1279px) {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.86;
   }
   @media screen and (min-width: $desktop) {
-    font-size: 12px;
+    font-size: 15px;
     line-height: 1.86;
   }
 }
@@ -103,13 +107,16 @@
   transition: box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 
   @media screen and (max-width: 767px) {
-    width: 140px;
+    margin-top: 10px;
+    width: 160px;
   }
   @media screen and (min-width: $tablet) and (max-width: 1279px) {
-    width: 150px;
+    margin-top: 15px;
+    width: 180px;
   }
   @media screen and (min-width: $desktop) {
-    width: 160px;
+    margin-top: 20px;
+    width: 200px;
   }
   &:hover,
   &:focus {
