@@ -1,0 +1,118 @@
+.modal-franchise {
+  padding: 45px 25px;
+  background-color: $primary-color;
+
+  @media screen and (max-width: 767px) {
+    width: 280px;
+  }
+  @media screen and (min-width: $tablet) and (max-width: 1279px) {
+    min-width: 400px;
+  }
+  @media screen and (min-width: $desktop) {
+    width: 500px;
+  }
+}
+
+.modal-franchise__title {
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: 700;
+  color: $main-color;
+
+  @media screen and (max-width: 767px) {
+    font-size: 16px;
+  }
+
+  @media screen and (min-width: $tablet) {
+    font-size: 20px;
+  }
+}
+
+.modal-franchise__block {
+  @extend %flex-modal;
+  flex-direction: column;
+}
+
+.modal-franchise__group-absolute {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.modal-franchise__input {
+  padding: 10px;
+  outline: none;
+  border: 2px solid $secondary-shade-color;
+  border-radius: 4px;
+  transition: $timing-function $duration;
+  color: $secondary-shade-color;
+
+  @media screen and (max-width: 767px) {
+    min-width: 200px;
+  }
+
+  @media screen and (min-width: $tablet) {
+    min-width: 280px;
+  }
+
+  &:hover,
+  &:focus {
+    border-color: $main-color;
+  }
+}
+
+.modal-franchise__info {
+  font-weight: 500;
+  color: $secondary-shade-color;
+
+  @media screen and (max-width: 767px) {
+    font-size: 10px;
+    line-height: 1.62;
+  }
+  @media screen and (min-width: $tablet) and (max-width: 1279px) {
+    font-size: 12px;
+    line-height: 1.86;
+  }
+  @media screen and (min-width: $desktop) {
+    font-size: 12px;
+    line-height: 1.86;
+  }
+}
+.modal-franchise__close-button {
+  @extend %flex-modal;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 2px;
+  border: none;
+  border-radius: 50%;
+  fill: $secondary-shade-color;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.modal-franchise__button {
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.31;
+  border: none;
+  border-radius: 22px;
+  color: #fff;
+  background-color: $main-color;
+  cursor: pointer;
+  transition: box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (max-width: 767px) {
+    width: 140px;
+  }
+  @media screen and (min-width: $tablet) and (max-width: 1279px) {
+    width: 150px;
+  }
+  @media screen and (min-width: $desktop) {
+    width: 160px;
+  }
+  &:hover,
+  &:focus {
+    background-color: #c7133e;
+  }
+}

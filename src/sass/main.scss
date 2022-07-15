@@ -3,6 +3,7 @@
 @import './utils/variables';
 @import './base/common';
 @import './utils/mixins';
+@import './utils/placeholders';
 
 @import './components/hero-header';
 @import './components/products';
@@ -13,4 +14,5 @@
 @import './components/gallery';
 @import './components/customer-reviews';
 @import './components/contacts';
+@import './components/modal-franchise';
 @import './components/footer';
