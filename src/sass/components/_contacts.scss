@@ -256,8 +256,8 @@
 }
 .contact__item {
   &:hover {
-    transform: scale(1.08);
+    transform: scale(1.02);
     transition: $duration;
-    box-shadow: (0px 0px 0px 2px rgba(255, 168, 168, 0.281));
+    box-shadow: (0px 0px 0px 0px rgba(255, 168, 168, 0.281));
   }
 }
