@@ -74,6 +74,7 @@
   align-items: center;
   color: $primary-color;
   padding: 10px 0;
+  transition: all 0.3s ease 0s;
 }
 .current {
   color: $main-color;
@@ -103,12 +104,12 @@
     line-height: calc(21 / 16);
     color: $main-color;
     margin-left: 110px;
+    transition: all 0.3s ease 0s;
     cursor: pointer;
 
     &:focus,
     &:hover {
       background-color: #ecebeb;
-      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
 }
@@ -235,6 +236,7 @@
   color: $primary-color;
   border-radius: 20px;
   margin-right: 8px;
+  transition: all 0.3s ease 0s;
   &:hover,
   &:focus {
     background-color: #c7133e;
@@ -263,6 +265,7 @@
   background-color: $primary-color;
   color: $main-color;
   border-radius: 20px;
+  transition: all 0.3s ease 0s;
   &:hover,
   &:focus {
     background-color: #ecebeb;
@@ -320,6 +323,7 @@
   background-color: #ffffff;
   fill: #c7133e;
   cursor: pointer;
+  transition: all 0.3s ease 0s;
   @media screen and (min-width: 1200px) {
     width: 26px;
     height: 26px;
@@ -329,7 +333,6 @@
   &:focus {
     background-color: #c7133e;
     fill: #ffffff;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 
